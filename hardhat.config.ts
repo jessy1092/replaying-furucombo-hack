@@ -12,7 +12,7 @@ const config: HardhatUserConfig = {
 			// blockGasLimit: 1_500_000_000,
 			forking: {
 				url: `https://eth-mainnet.g.alchemy.com/v2/${process.env.ALCHEMY_FORK_API_KEY}`,
-				blockNumber: 11940500,
+				blockNumber: 11940499, // setup before 11940500
 				enabled: true,
 			},
 			allowUnlimitedContractSize: true,
