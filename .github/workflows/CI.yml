@@ -10,6 +10,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    environment: build
+
+    env:
+      ALCHEMY_FORK_API_KEY: ${{ secrets.ALCHEMY_FORK_API_KEY }}
+
     strategy:
       matrix:
         node-version: [18.x]
