@@ -10,7 +10,8 @@ import { IERC20 } from '../test-types';
 const ATTACKER_CONTRACT = '0x86765dde9304bEa32f65330d266155c4fA0C4F04';
 const ATTACKER = '0xb624E2b10b84a41687caeC94BDd484E48d76B212';
 
-const AAVE_CONTRACT = '';
+// https://etherscan.io/address/0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9#code
+const AAVE_CONTRACT = '0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9';
 
 // https://etherscan.io/address/0x17e8Ca1b4798B97602895f63206afCd1Fc90Ca5f#code
 const FURUCOMBO_CONTRACT = '0x17e8Ca1b4798B97602895f63206afCd1Fc90Ca5f';
